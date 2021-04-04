@@ -1,13 +1,29 @@
 .App {
   /* text-align: center; */
-  background-image: url(https://images.pexels.com/photos/6796424/pexels-photo-6796424.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-image: url(https://images.pexels.com/photos/414659/pexels-photo-414659.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   position: fixed;
   min-width: 100%;
   min-height: 100%;
   background-size: cover;
   background-position: center;
-  background-color: rgb(193, 149, 223);
+  background-color: rgb(227, 237, 241);
   background-blend-mode: darken;
+  /* opacity: 0.2; */
+  line-height: 1.6;
+}
+
+.card {
+  width: 500px;
+  padding: 2rem;
+  background-color: rgb(235, 235, 235);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  transition: all ease 200ms;
+}
+.card:hover{
+  transform: scale(1.01);
+  
 }
 
 .h1 {
