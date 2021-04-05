@@ -11,10 +11,11 @@ function Home() {
         {/* <h4>Elk River, MN jgoth23@gmail.com</h4> */}
 
         <p className="profile-body">
-          I am Johnny Goth, an enthusiastic, self-motivated, and confident
-          software developer residing in Elk River, MN. I started a rigorous coding program at Prime Digital Academy in
-          Minneapolis. I am now pursuing positions within companies here in the
-          Twin Cities to build my career as a software developer.
+          I am Johnny Goth, an enthusiastic, self-motivated, and curious
+          software developer. I started a full immersion coding program at Prime
+          Digital Academy in Minneapolis. I currently seeking a chance to
+          showcase all I've learned, and will continue to learn as I start my
+          journey as a software developer.
         </p>
       </div>
       <div className="home">
