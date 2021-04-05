@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function Home() {
   return (
-    <div className="card">
+    <div className="home-card">
       <div className="profile-main">
         <h1 className="profile-name">Johnny Goth</h1>
         <h3 className="profile-position">Software Engineer</h3>
@@ -22,7 +22,7 @@ function Home() {
         <img src="" alt=""></img>
         <ul class="social-list">
           <li className="social-item">
-            <a className="social-link" href="#"></a>
+            <a className="social-link" href="https://github.com/jgoth23/"></a>
             <Link to="#" className="menu-bars">
               <AiIcons.AiFillGithub />
             </Link>

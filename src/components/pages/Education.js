@@ -1,20 +1,22 @@
-import React from 'react'
+import React from 'react';
 import * as AiIcons from 'react-icons/ai';
 // import { Link } from 'react-router-dom';
 
 function Education() {
   return (
-   
-      <div className="ed-card">
+    <div className="ed-card">
       <div className="profile-main">
         <h1 className="ed-name">Education</h1>
         <h3 className="ed-position">prime digital academy</h3>
         {/* <h4>Elk River, MN jgoth23@gmail.com</h4> */}
 
-        <p className="ed-body">
-        Full Stack developer
-        </p>
+        <p className="ed-body">Full Stack developer</p>
+        <p className="dates">December 2020 - April 2021</p>
+        <h4 className="ed-position">Minneapolis business college</h4>
+        <p className="ed-body">graphic design</p>
+        <p className="dates">september 2009 - may 2010</p>
       </div>
+
       {/* <div className="home">
         <div className="profile-sidebar"></div>
         <img src="" alt=""></img>

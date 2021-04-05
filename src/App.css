@@ -12,27 +12,25 @@
   line-height: 1.6;
 }
 
-.card {
+.home-card {
   margin-left: auto;
   margin-right: auto;
   width: 800px;
   padding: 2rem;
-  background-color: rgb(235, 235, 235);
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   border-radius: 5px; /* 5px rounded corners */
   transition: all ease 200ms;
   display: flex;
 }
-.card:hover{
+.home-card:hover {
   transform: scale(1.01);
-  
 }
 
 .h1 {
   font-size: 40px;
   text-align: center;
-  
 }
 
 * {
@@ -40,7 +38,9 @@
   margin: 0;
   padding: 0;
 }
-.home, .education, .skills {
+.home,
+.education,
+.skills {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -71,7 +71,7 @@
   letter-spacing: 1px;
 }
 .profile-name::after {
-  content: "";
+  content: '';
   display: block;
   height: 1px;
   width: 8em;
@@ -90,7 +90,7 @@
 
 .profile-body {
   font-weight: 300;
-font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .ed-card {
@@ -98,16 +98,15 @@ font-family:Verdana, Geneva, Tahoma, sans-serif;
   margin-right: auto;
   width: 800px;
   padding: 2rem;
-  background-color: rgb(235, 235, 235);
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   border-radius: 5px; /* 5px rounded corners */
   transition: all ease 200ms;
   display: flex;
 }
-.ed-card:hover{
+.ed-card:hover {
   transform: scale(1.01);
-  
 }
 
 .ed-position {
@@ -116,7 +115,6 @@ font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size: 2.25rem;
   letter-spacing: 1.75px;
   color: rgb(7, 48, 51);
-  
 }
 
 .ed-name {
@@ -125,17 +123,59 @@ font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size: 3.25rem;
   letter-spacing: 1.75px;
   color: rgb(7, 48, 51);
-  
 }
 
 .ed-body {
-    margin: 0;
+  margin: 0;
   text-transform: uppercase;
   font-size: 1.25rem;
   letter-spacing: 1.5px;
   color: rgb(7, 48, 51);
   margin-bottom: 10px;
 }
+
+.dates {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  letter-spacing: 1.5px;
+  color: rgb(75, 201, 37);
+  margin-bottom: 10px;
+}
+
+.skills-card {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  padding: 2rem;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  transition: all ease 200ms;
+  display: flex;
+}
+.skills-card:hover {
+  transform: scale(1.01);
+}
+
+.skills-name {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 3.25rem;
+  letter-spacing: 1.75px;
+  color: rgb(7, 48, 51);
+}
+.checklist {
+  list-style: none;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 1.05rem;
+  letter-spacing: 1.5px;
+  color: rgb(75, 201, 37);
+  margin-bottom: 10px;
+}
+
 
 
 @media (min-width: 600px) {
@@ -171,4 +211,4 @@ font-family:Verdana, Geneva, Tahoma, sans-serif;
   to {
     transform: rotate(360deg);
   }
-} */ 
+} */
