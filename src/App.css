@@ -176,6 +176,10 @@
   margin-bottom: 10px;
 }
 
+.checklist:hover {
+  color: darkgrey;
+}
+
 .logo-list {
   list-style: none;
   margin: 0;
@@ -184,6 +188,9 @@
   letter-spacing: 1.5px;
   color: rgb(75, 201, 37);
   margin-bottom: 10px;
+}
+.logo-list:hover {
+  color: darkgrey;
 }
 
 

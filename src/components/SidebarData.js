@@ -22,4 +22,10 @@ export const SidebarData = [
     icon: <IoIcons.IoMdBuild />,
     cName: 'nav-text'
   },
+  {
+    title: 'Projects',
+    path: '/projects',
+    icon: <AiIcons.AiFillFolder />,
+    cName: 'nav-text'
+  },
 ]

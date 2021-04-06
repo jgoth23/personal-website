@@ -4,6 +4,9 @@ import {SiCss3} from 'react-icons/si'
 import {SiJavascript} from 'react-icons/si'
 import {SiReact} from 'react-icons/si'
 import {FaCheck} from 'react-icons/fa'
+import {SiRedux} from 'react-icons/si'
+import {SiNodeDotJs} from 'react-icons/si'
+import {SiPython} from 'react-icons/si'
 
 function Skills() {
   return (
@@ -14,7 +17,7 @@ function Skills() {
         {/* <h4>Elk River, MN jgoth23@gmail.com</h4> */}
 
         <p className="ed-body">Programming languages & tools</p>
-        <div className="logo-list"> <SiHtml5 /> <SiCss3 /> <SiJavascript /> <SiReact /></div>
+        <div className="logo-list"> <SiHtml5 /> <SiCss3 /> <SiJavascript /> <SiReact /> <SiRedux /> <SiNodeDotJs /> <SiPython ></SiPython></div>
         
         <ul className="dates">
           <li className="checklist"><FaCheck /> html/css</li>

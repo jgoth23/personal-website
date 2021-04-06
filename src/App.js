@@ -5,6 +5,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Home from './components/pages/Home';
 import Education from './components/pages/Education';
 import Skills from './components/pages/Skills';
+import Projects from './components/pages/Projects';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path='/' exact component={Home} />
         <Route path='/education' component={Education} />
         <Route path='/skills' component={Skills} />
+        <Route path='/projects' component={Projects} />
       </Switch>
       </Router>
       
