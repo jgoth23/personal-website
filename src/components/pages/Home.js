@@ -1,6 +1,8 @@
 import React from 'react';
 import * as AiIcons from 'react-icons/ai';
-import { Link } from 'react-router-dom';
+
+
+
 
 function Home() {
   return (
@@ -23,16 +25,17 @@ function Home() {
         <img src="" alt=""></img>
         <ul class="social-list">
           <li className="social-item">
-            <a className="social-link" href="https://github.com/jgoth23/"></a>
-            <Link to="#" className="menu-bars">
+            <a className="social-link" href="https://github.com/jgoth23/">
               <AiIcons.AiFillGithub />
-            </Link>
+            </a>
           </li>
           <li className="social-item">
-            <a className="social-link" href="#"></a>
-            <Link to="#" className="menu-bars">
-              <AiIcons.AiFillLinkedin />
-            </Link>
+            <a
+               className="social-link"
+              href="https://linkedin.com/in/johnny-goth/">
+           
+            <AiIcons.AiFillLinkedin />
+            </a>
           </li>
         </ul>
       </div>
