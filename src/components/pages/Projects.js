@@ -11,16 +11,25 @@ function Projects() {
 
         <p className="pro-body">FullStack(mobile/web)</p>
         <p className="pro-body">Technologies I used</p>
-        <p className="pro-body">React, Redux</p>
+        <p className="pro-body">
+          React, Redux, JavaScript, Express, PostgreSQL, CSS
+        </p>
         <p className="pro-details">
-          Heres some info might change because the font color might be off but
-          we'll see what ends up being the result in the end just gonna try and
-          let it fill up then gp from there
+          Coaches tracker is a web app built as a scheduling and booking program
+          for coaches and athletes to have a direct line of communication. A
+          user can login and schedule an event with their coach and the coach
+          can leave feedback for the user to view upon login.
         </p>
         <h4 className="pro-position">Nature of the North</h4>
         <p className="pro-body">FullStack(mobile/web) </p>
         <p className="pro-body">Technologies I used </p>
-        <p className="pro-details">september 2009 - may 2010</p>
+        <p className="pro-details">
+          Nature Of The North is a bouldering gym that myself and my group built
+          an app for their bouldering league. This app is used by the members of
+          the league to keep track of scores, handicaps, and team scores. A
+          leaderboard tracks all the scores and shows current leaders after each
+          week's event. 
+        </p>
       </div>
 
       {/* <div className="home">
