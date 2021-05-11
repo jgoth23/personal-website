@@ -6,27 +6,13 @@
   min-height: 100%;
   background-size: cover;
   background-position: center;
-  background-color: rgb(60, 63, 65);
-  background-blend-mode: darken;
+  /* background-color: rgb(60, 63, 65); */
+  /* background-blend-mode: darken; */
   /* opacity: 0.2; */
   line-height: 1.6;
 }
 
-.home-card {
-  margin-left: auto;
-  margin-right: auto;
-  width: 800px;
-  padding: 2rem;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-  border-radius: 5px; /* 5px rounded corners */
-  transition: all ease 200ms;
-  display: flex;
-}
-.home-card:hover {
-  transform: scale(1.01);
-}
+
 
 .h1 {
   font-size: 40px;
@@ -66,18 +52,23 @@
 }
 
 .profile-name {
-  text-align: center;
-  font-size: 50px;
-  letter-spacing: 1px;
+  /* text-align: center; */
+  font-size: 70px;
+  letter-spacing: 1.5px;
+  margin-left: 10px;
+  margin-top: 80px;
+  text-transform: uppercase;
+  font-family: 'Kanit';
+  font-weight: 400;
 }
-.profile-name::after {
+/* .profile-name::after {
   content: '';
   display: block;
   height: 1px;
   width: 8em;
   background: black;
   margin: 0.5em auto;
-}
+} */
 
 .profile-position {
   margin: 0;
@@ -86,28 +77,15 @@
   letter-spacing: 1.5px;
   color: rgb(7, 48, 51);
   margin-bottom: 10px;
+  margin-left: 10px;
 }
 
 .profile-body {
   font-weight: 300;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 10px;
 }
 
-.ed-card {
-  margin-left: auto;
-  margin-right: auto;
-  width: 800px;
-  padding: 2rem;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-  border-radius: 5px; /* 5px rounded corners */
-  transition: all ease 200ms;
-  display: flex;
-}
-.ed-card:hover {
-  transform: scale(1.01);
-}
 
 .ed-position {
   margin: 0;
@@ -143,21 +121,7 @@
   margin-bottom: 10px;
 }
 
-.skills-card {
-  margin-left: auto;
-  margin-right: auto;
-  width: 800px;
-  padding: 2rem;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-  border-radius: 5px; /* 5px rounded corners */
-  transition: all ease 200ms;
-  display: flex;
-}
-.skills-card:hover {
-  transform: scale(1.01);
-}
+
 
 .skills-name {
   margin: 0;
@@ -225,6 +189,7 @@
   letter-spacing: 1.5px;
   color: rgb(75, 201, 37);
   margin-bottom: 10px;
+  
 }
 
 @media (min-width: 600px) {
