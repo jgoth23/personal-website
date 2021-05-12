@@ -23,7 +23,7 @@ function Home() {
         <img src="" alt=""></img>
         <ul class="social-list">
           <li className="social-item">
-            <a className="social-link">
+            <a className="social-link" href="mailto:jgoth23@gamil.com">
               <HeroIcons.HiMail />
             </a>
           </li>
