@@ -1,8 +1,6 @@
 import React from 'react';
 import * as AiIcons from 'react-icons/ai';
-
-
-
+import * as HeroIcons from 'react-icons/hi';
 
 function Home() {
   return (
@@ -25,16 +23,22 @@ function Home() {
         <img src="" alt=""></img>
         <ul class="social-list">
           <li className="social-item">
+            <a className="social-link">
+              <HeroIcons.HiMail />
+            </a>
+          </li>
+          
+          <li className="social-item">
             <a className="social-link" href="https://github.com/jgoth23/">
               <AiIcons.AiFillGithub />
             </a>
           </li>
           <li className="social-item">
             <a
-               className="social-link"
-              href="https://linkedin.com/in/johnny-goth/">
-           
-            <AiIcons.AiFillLinkedin />
+              className="social-link"
+              href="https://linkedin.com/in/johnny-goth/"
+            >
+              <AiIcons.AiFillLinkedin />
             </a>
           </li>
         </ul>
