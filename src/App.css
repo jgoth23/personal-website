@@ -170,6 +170,7 @@
   font-size: 3.25rem;
   letter-spacing: 1.75px;
   color: rgb(7, 48, 51);
+  margin-left: 10px;
 }
 
 .pro-position {
@@ -178,6 +179,7 @@
   font-size: 2.25rem;
   letter-spacing: 1.75px;
   color: rgb(7, 48, 51);
+  margin-left: 10px;
 }
 
 .pro-body {
@@ -187,6 +189,7 @@
   letter-spacing: 1.5px;
   color: rgb(7, 48, 51);
   margin-bottom: 10px;
+  margin-left: 10px;
 }
 
 .pro-details {
@@ -196,7 +199,7 @@
   letter-spacing: 1.5px;
   color: rgb(75, 201, 37);
   margin-bottom: 10px;
-  
+  margin-left: 10px;
 }
 
 @media (min-width: 600px) {
