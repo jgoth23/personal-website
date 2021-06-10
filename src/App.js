@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       {/* <h1 className="h1">Johnny G webpage FTW</h1> */}
-      <Router>
+      <Router basename='/personal-website'>
       <Navbar />
       <Switch>
         <Route path='/' exact component={Home} />
